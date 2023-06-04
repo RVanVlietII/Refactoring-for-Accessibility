@@ -46,7 +46,7 @@ a {
 p {
     font-size: 16px;
 }
-
+/*sets the background photo for the website*/
 .hero {
     height: 800px;
     width: 100%;
@@ -55,22 +55,49 @@ p {
     background-size: cover;
     background-position: center;
 }
-
+/*defines what direction the SEO and Social media marketing photos will float in the larger column*/
 .float-left {
     float: left;
     margin-right: 25px;
 }
-
+/*defines what direction the online reputation management photo will float in the larger column*/
 .float-right {
     float: right;
     margin-left: 25px;
 }
-
+/*defines how the image and paragraph will display in the column*/
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
     line-height: 1.5;
+}
+/*settings for the search-engine-optimization class*/
+.search-engine-optimization {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+/*settings for the online-reputation-management class*/
+.online-reputation-management {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+/*settings for the social-media-marketing class*/
+.social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
 }
 /*all sections of the benefits will have the same formatting unless listed specifically*/
 .benefits {
@@ -92,46 +119,22 @@ p {
     text-align: center;
     text-decoration: underline;
 }
-/*all benefits' section img element will present the same*/
+/*all benefits' section img element will display the same*/
 .benefits img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
+/*sets the spacing below the paragraph so that there is ample spacing for benefit-brand*/
 .benefit-lead {
     margin-bottom: 20px;
 }
+/*sets the spacing below the paragraph so that there is ample spacing for benefit-cost*/
 .benefit-brand {
     margin-bottom: 20px;
 }
 .benefit-cost {
     margin-bottom: 20px;
-}
-.search-engine-optimization {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
 }
 /*all headers for the content section (L side column) will present the same*/
 .content h2 {
