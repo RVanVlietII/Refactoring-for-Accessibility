@@ -1,49 +1,45 @@
+/*universal applies to whole page where not defined*/
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
-
+/*general background-color unless defined in other sections*/
 body {
     background-color: #d9dcd6;
 }
-
+/*the title*/
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    width: 100%;
 }
-
+/*how the title presents*/
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
-
-.header h1 .seo {
+/*defines the color of SEO in the main header title*/
+.seo {
     color: #d9dcd6;
 }
-
-.header div {
-    padding-top: 15px;
-    margin-right: 20px;
-    float: right;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
-}
-
-.header div ul {
+/*the 3 links are listed here to reference lower in page*/
+nav {
     list-style-type: none;
-}
-
-.header div ul li {
-    display: inline-block;
+    display: flex;
+    float: right;
     margin-left: 25px;
+    justify-content: space-between;
 }
-
+/*defines properties of the links*/
 a {
     color: #ffffff;
     text-decoration: none;
+    font-size: 18px;
 }
 
 p {
@@ -74,7 +70,7 @@ p {
     display: inline-block;
     margin-left: 20px;
 }
-
+/*all sections of the benefits will have the same formatting unless listed specifically*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -84,51 +80,16 @@ p {
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
-}
-
-.benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
 }
-
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-lead h3 {
+/*all benefit titles will appear the same*/
+.benefit h3 {
     margin-bottom: 10px;
     text-align: center;
 }
-
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-lead img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
+/*all benefits' section img element will present the same*/
+.benefits img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
@@ -160,35 +121,18 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
-
-.search-engine-optimization img {
-    max-height: 200px;
-}
-
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-.search-engine-optimization h2 {
+/*all headers for the content section (L side column) will present the same*/
+.content h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
+/*all the content section img's will have a the same max height*/
+.content img {
+    max-height: 200px;
 }
 
 .footer {
+    background-color: #d9dcd6;
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
