@@ -36,3 +36,4 @@ The following image shows the website's appearance and functionality:
 
 The link to the website is attched here: 
 
+https://rvanvlietii.github.io/Refactoring-for-Accessibility/
