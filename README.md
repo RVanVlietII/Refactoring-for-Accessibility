@@ -30,6 +30,8 @@ The website is a one page sheet with scrolldown properties to allow you to learn
 
 The following image shows the website's appearance and functionality:
 
+<img width="1438" alt="Real-Screenshot" src="https://github.com/RVanVlietII/Refactoring-for-Accessibility/assets/129308007/871da3c1-6d5c-46be-8868-6cd90798bd9a">
+
 
 
 The link to the website is attched here: 
