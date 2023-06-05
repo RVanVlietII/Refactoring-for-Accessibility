@@ -31,6 +31,7 @@ The website is a one page sheet with scrolldown properties to allow you to learn
 The following image shows the website's appearance and functionality:
 
 (Img of the actual website)[.assets/real-screenshot.png]
+Refactoring-for-Accessibility/Real-Screenshot.png
 
 The link to the website is attched here: 
 
