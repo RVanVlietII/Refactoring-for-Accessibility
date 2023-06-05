@@ -19,7 +19,7 @@ body {
     font-size: 20px;
     width: 100%;
 }
-/*how the title presents*/
+
 .header h1 {
     display: inline-block;
     font-size: 48px;
@@ -27,16 +27,17 @@ body {
 .seo {
     color: #d9dcd6;
 }
-/*the 3 links are listed here to reference lower in page*/
+/*the 3 links are listed here in the nav bar to reference lower in page*/
 nav {
     display: flex;
     float: right;
     margin-left: 25px;
     justify-content: space-between;
+    margin-top: 20px;
 }
-/*defines properties of the links*/
+/*defines properties of the buttons to make them more accessible*/
 a {
-    color: none;
+    color: black;
     text-decoration: none;
     font-size: 18px;
 }
@@ -63,14 +64,14 @@ p {
     float: right;
     margin-left: 25px;
 }
-/*defines how the image and paragraph will display in the column*/
+
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
     line-height: 1.5;
 }
-/*settings for the search-engine-optimization class*/
+/*settings for the search-engine-optimization block*/
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -79,7 +80,7 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
-/*settings for the online-reputation-management class*/
+/*settings for the online-reputation-management block*/
 .online-reputation-management {
     margin-bottom: 20px;
     padding: 50px;
@@ -88,7 +89,7 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
-/*settings for the social-media-marketing class*/
+/*settings for the social-media-marketing block*/
 .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
@@ -138,7 +139,7 @@ p {
     margin-bottom: 20px;
     font-size: 36px;
 }
-/*all the content section img's will have a the same max height*/
+
 .content img {
     max-height: 200px;
 }
